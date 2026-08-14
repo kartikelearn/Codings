@@ -1,0 +1,31 @@
+a=4
+b=2
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+print(a and b)
+print(a or b)
+print(not a)
+print(not b)
+print(a is b)
+print(a is not b)
+print(a in [1,2,3,4,5])
+print(a not in [1,2,3,4,5])
+print(a is 4)
+print(b is 2)
+a+=b 
+print(a)
+d,e=30,"50"
+f=int(e)
+print(type(f),f)
+

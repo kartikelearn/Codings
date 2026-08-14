@@ -1,0 +1,22 @@
+Day,Coffee Type,Units Sold
+Monday,Espresso,45
+Monday,Cappuccino,32
+Monday,Latte,40
+Tuesday,Espresso,50
+Tuesday,Latte,38
+Tuesday,Mocha,27
+Wednesday,Cappuccino,35
+Wednesday,Americano,41
+Wednesday,Latte,36
+Thursday,Espresso,48
+Thursday,Mocha,30
+Thursday,Americano,39
+Friday,Latte,52
+Friday,Cappuccino,44
+Friday,Espresso,55
+Saturday,Mocha,33
+Saturday,Latte,47
+Saturday,Americano,42
+Sunday,Espresso,60
+Sunday,Cappuccino,50
+Sunday,Latte,58
