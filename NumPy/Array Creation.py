@@ -59,3 +59,10 @@ print(a)
 
 
 # By Default the data of created array is Float...
+
+#So we can also create random numbers generator like
+generator=np.random.default_rng(1)
+arr=generator.random(5) # it's used for the random float numbers
+print(arr)
+arr=generator.integers(1,100,5) # while this is used to get the random integers
+print(arr)
