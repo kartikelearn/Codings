@@ -8,7 +8,7 @@ print(a.T)
 
 # The above all don't make changes in the array, they return the modified array where as
 print(a)
-a.resize((4,3))
+a.resize((4,3)) #change the actual size, data can be added/removed
 print(a)
 
 print(a.reshape((3,-1))) # if we write a -1 then the other dimension are automatically created
@@ -26,10 +26,10 @@ b=np.array([4,5,6])
 from numpy import newaxis
 print(np.hstack((a,b)))
 print(np.column_stack((a,b))) # It basically stacks a 1D array as column in a 2D array.
-print(a[:,newaxis])
+print(a[:,newaxis]) # to  ake the array vertical
 print(b[:,newaxis])
-print(np.column_stack((a[:, newaxis], b[:, newaxis])))
-print(np.hstack((a[:, newaxis], b[:, newaxis])))
+print(np.column_stack((a[:, newaxis], b[:, newaxis]))) # make it horizontal
+print(np.hstack((a[:, newaxis], b[:, newaxis]))) # works same as column_stalk
 
 
 #In complex cases _r and _c are useful forr creating arrays by stacking numbers along one axis
@@ -47,4 +47,7 @@ a=np.floor(10*rg.random((6,6)))
 #  [8. 5. 5. 7. 1. 8.]
 #  [6. 7. 1. 8. 1. 0.]]
 print(np.hsplit(a,(4,5)))
+
+print(np.repeat(a,3)) #Each element gets repeated
+print(np.tile(a,3)) # the whole array or pattern is printed
 
