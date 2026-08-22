@@ -52,3 +52,13 @@ a = np.array([
 ])
 print(np.argwhere(a>50)) # it's quite useful in multidimentional arrays as it gives the co-ordinates like (row,columns)
 
+
+# To solve system of linear equations:
+A = np.array([
+    [24, 1],
+    [23, -1]
+])
+
+B = np.array([5, 1])
+x=np.linalg.solve(A,B).astype(int)
+print(x)
