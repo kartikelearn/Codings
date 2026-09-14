@@ -26,7 +26,8 @@ a = np.array([
 ])
 
 print(np.take(a,[1,2],axis=0)) # returns the columns and for axis 1 returns the rows
-print(np.take(a,[0,1,2])) # it will work like print(a[[0,1,2]])
+print(np.take(a,[0,1,2])) # it will give the elements in row 1 at places 0,1,2)
+# print(a[0])
 
 # We have also a method named put() we can use this as opposite of take it means we can put data at specific indices using put
 np.put(a,[1,2,3],[100,200,300])

@@ -27,7 +27,7 @@ b=np.array(
 
 print(np.shape(b))
 a=b.reshape(2,5,2)
-# [[ 0  1]
+# [[[ 0  1]
 #   [ 2  3]
 #   [10 11]
 #   [12 13]
@@ -40,7 +40,7 @@ a=b.reshape(2,5,2)
 #   [42 43]]]
 
 print(a[0,0],a[1,0]) # for a row in a 3D
-# print(a)
+print(a)
 print(a[1,...],end="\n\n\n")
 print(a[0,:,:],end="\n\n\n") # for taking any row out
 print(a[:,:,1],end="\n\n\n") # for taking any column out

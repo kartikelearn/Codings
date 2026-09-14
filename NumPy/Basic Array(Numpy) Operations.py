@@ -14,6 +14,7 @@ b=b.reshape(3,2)
 #Here we have some methods or functions to do matrix multiplication (2,3)*(3,2)
 
 c=a@b # Matrix Multiplication using @ operator
+c=np.matmul(a,b)
 print(c)
 c=a.dot(b) # using dot method
 print(c) 
@@ -48,5 +49,5 @@ print(a)
 
 n=np.arange(12).reshape(3,4).astype(int)
 print(n)
-b=n.cumsum(axis=0)
+b=n.cumsum(axis=0) # Sum along an Axis
 print(b)
