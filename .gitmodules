@@ -1,0 +1,3 @@
+[submodule "NumPy/Practicing NumPy/numpy-100"]
+	path = NumPy/Practicing NumPy/numpy-100
+	url = https://github.com/kartikelearn/numpy-100.git
